@@ -4,7 +4,7 @@ Simple CRC32 brute forcer written in Rust that by default tests for strings that
 Provide a wordlist named "wordlist" (without extension) in the same directory as Cargo.toml.
 
 ## Requirements
-See cargo.lock
+See Cargo.toml.
 
 ### Hardware
 This crate uses the crc32fast crate. The crate crc32fast uses SIMD instructions (SSE) found on x86 processors. 
