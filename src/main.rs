@@ -10,8 +10,7 @@ fn lines_from_file(filename: impl AsRef<Path>) -> Vec<String> {
 }
 
 fn main() {
-    let testvalue = 5162020;
-
+    let testvalue = 5162020; // Edit this value with what checksum to test for
     let mut teststring: String;
     let mut checksum: u32;
     let mut bslice: &[u8];
